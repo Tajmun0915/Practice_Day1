@@ -1,0 +1,39 @@
+Linear Data Structures
+
+1. Arrays
+            Time Complexity:
+                    Access: O(1)
+                    Search (Unsorted): O(n)
+                    Search (Sorted with binary search): O(log n)
+                    Insertion/Deletion (at end, if no resizing needed): O(1)
+                    Insertion/Deletion (at beginning or middle, with resizing): O(n)
+            Space Complexity: O(n)
+2. Linked Lists
+            Time Complexity:
+                    Access: O(n)
+                    Search: O(n)
+                    Insertion/Deletion (at beginning): O(1)
+                    Insertion/Deletion (at end, with tail pointer): O(1)
+                    Insertion/Deletion (at middle, with traversal): O(n)
+            Space Complexity: O(n)
+Non-Linear Data Structures
+
+1. Binary Search Trees (BST)
+             Time Complexity:
+                    Search: O(h), where h is the height of the tree (average case O(log n), worst case O(n) for unbalanced trees)
+                    Insertion: O(h)
+                    Deletion: O(h)
+                    Traversal (Inorder, Preorder, Postorder): O(n)
+             Space Complexity: O(n)
+2. Hash Tables (HashMap in Java)
+             Time Complexity:
+                    Search/Insert/Delete (average case): O(1)
+                    Search/Insert/Delete (worst case, if hashing leads to collisions): O(n)
+                    Space Complexity: O(n)
+
+    Bubble Sort (Sorting Algorithm)
+            Time Complexity:
+                    Best Case: O(n) - when the array is already sorted
+                    Average Case: O(n^2)
+                    Worst Case: O(n^2)
+            Space Complexity: O(1) - Bubble sort is an in-place sorting algorithm
